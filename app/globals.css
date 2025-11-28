@@ -18,12 +18,10 @@
 /* ------------------------------
    Global Typography
 ------------------------------ */
+/* my-restaurant-menu/app/globals.css */
+
 body {
-  font-family: 'Brockmann', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background: #fafafa;
-  color: #333;
+    font-family: 'Brockmann', sans-serif; /* Fallback a una fuente sans-serif genérica */
 }
 
 
