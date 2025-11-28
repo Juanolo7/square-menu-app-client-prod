@@ -1,7 +1,7 @@
 // square-menu-app-client/app/page.jsx
 
 import Category from "./components/Category";
-import styles from "../menu.module.css"; // Usa "../" para subir un nivel si el CSS está en la raíz del App
+import styles from "./menu.module.css"; // Usa "../" para subir un nivel si el CSS está en la raíz del App
 
 // 1. Define la URL base usando la variable de entorno NEXT_PUBLIC_API_URL.
 //    Si no está definida (entorno local), usa el fallback de localhost.
