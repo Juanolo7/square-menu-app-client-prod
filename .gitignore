@@ -12,3 +12,4 @@
 
 # Archivos innecesarios
 /public/index.html
+.DS_Store
