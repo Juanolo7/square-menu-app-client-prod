@@ -1,0 +1,14 @@
+# Directorio de dependencias
+/node_modules
+
+# Archivos de build de Next.js
+/.next
+/out
+/dist
+
+# Archivos de entorno (CRÍTICO)
+.env
+.env.local
+
+# Archivos innecesarios
+/public/index.html

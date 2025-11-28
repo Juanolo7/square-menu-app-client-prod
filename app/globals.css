@@ -1,0 +1,39 @@
+/* ------------------------------
+   Brockmann Font
+------------------------------ */
+@font-face {
+  font-family: 'Brockmann';
+  src: url('/fonts/Brockmann-Regular.woff2') format('woff2'),
+       url('/fonts/Brockmann-Regular.woff') format('woff');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Brockmann';
+  src: url('/fonts/Brockmann-Medium.woff2') format('woff2'),
+       url('/fonts/Brockmann-Medium.woff') format('woff');
+  font-weight: 500;
+}
+
+/* ------------------------------
+   Global Typography
+------------------------------ */
+body {
+  font-family: 'Brockmann', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fafafa;
+  color: #333;
+}
+
+
+/* paper texture */
+.noise {
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  background-image: url('/noise.png'); /* we will generate this if needed */
+  opacity: 0.18;
+  mix-blend-mode: multiply;
+  z-index: 99999;
+}

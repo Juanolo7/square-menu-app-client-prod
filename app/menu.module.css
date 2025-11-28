@@ -1,0 +1,70 @@
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 60px;
+  background: #51633F;
+  min-height: 100vh;
+  font-family: 'Brockmann', sans-serif;
+  color: white;
+}
+
+/* Category title */
+.categoryTitle {
+  font-size: 28px;
+  font-weight: 600;
+  margin: 60px 0 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* 2-column grid for items */
+.itemsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 20px 50px; /* vertical / horizontal spacing */
+}
+
+/* Item card */
+.itemCard {
+  display: flex;
+  flex-direction: column;
+  background: transparent;
+  padding: 10px 0;
+  border-bottom: 0.5px solid rgba(255,255,255,0.15);
+}
+
+/* Title + Price on the same line */
+.itemHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.itemName {
+  font-size: 18px;
+  font-weight: 550;
+  letter-spacing: .8px;
+  margin: 0;
+  text-shadow: 0.5px 0.5px rgba(0,0,0,0.05);
+}
+
+.itemPrice {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* Description */
+.itemDescription {
+  font-size: 14px;
+  margin: 6px 0 4px;
+  opacity: 0.9;
+  line-height: 1.1rem;
+  font-style: italic;
+  letter-spacing: 0.3px;
+}
+
+/* Allergens */
+.itemAllergens {
+  font-size: 12px;
+  opacity: 0.7;
+}
